@@ -7,13 +7,18 @@
     height: 100vh;
     background-color: #fff;
 }
+#timedate {
+    font: small-caps lighter 43px/150% "Cairo", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    text-align:left;
+    width: 50%;
+    margin: 10px auto;
+    color:#fff;
+    border-left: 5px solid #ed1f24;
+    padding: 10px;
+    
+  }
 
-time{
-    color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
-}
+
 
 .weather-forecast{
     display: flex;
